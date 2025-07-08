@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Pernikahan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      color: #333;
+      text-align: center;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #00838f;
+      font-size: 2rem;
+    }
+    .date {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .map, .rsvp {
+      margin: 1rem 0;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #00838f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Undangan Pernikahan</h1>
+    <p>Kami mengundang Anda untuk hadir pada pernikahan kami:</p>
+    <h2>Irwan & Putri</h2>
+    <div class="date">Minggu, 20 Juli 2025<br>Pukul 10.00 WIB</div>
+    <div class="location">
+      📍 Gedung Serbaguna Cempaka, Jakarta
+    </div>
+    <div class="map">
+      <a class="button" href="https://goo.gl/maps/xyz123" target="_blank">Lihat di Google Maps</a>
+    </div>
+    <div class="rsvp">
+      <a class="button" href="https://wa.me/6281234567890?text=Saya+akan+datang+ke+acara+pernikahan+Irwan+dan+Putri" target="_blank">Konfirmasi Kehadiran</a>
+    </div>
+    <p style="margin-top:2rem; font-style: italic;">Kami sangat menantikan kehadiran Anda 💖</p>
+  </div>
+</body>
+</html>
